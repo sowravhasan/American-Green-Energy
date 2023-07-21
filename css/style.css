@@ -684,7 +684,7 @@ ul.top-info li p.info-text {
 .header-two {
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
-  padding: 15px 0;
+  padding: 0px 0px;
 }
 .header-two .navbar-fixed {
   background-color: #fff;
@@ -2264,6 +2264,11 @@ img.testimonial-thumb {
   font-size: 24px;
   margin: 0;
 }
+/* Choos us box */
+.choose-box:hover {
+  scale: 1.1;
+  transition: all 0.2s ease-in-out;
+}
 
 /* Newsletter */
 .ts-newsletter {
@@ -3345,4 +3350,42 @@ label {
 /*# sourceMappingURL=style.css.map */
 a.btn.btn-primary.btn-fff {
   color: #fff !important;
+}
+/* About us page ======================================================== */
+.deskimg{
+  max-height: 300px;
+}
+.importance-of-soler-monitering{
+
+}
+.soler-img{
+  max-height: 300px;
+}
+.list-items-header{
+  font-weight: bold;
+}
+/* @media only screen and (min-width: 758px) {
+  .container{
+    text-align: center;
+  }
+} */
+.scale-card{
+  margin-bottom: 5px;
+}
+.list-headers{
+  font-weight: 800;
+}
+.responsive-image{
+  width: 80vw;
+  height: 100vh;
+}
+.paragraph-title{
+  font-weight: 800;
+}
+.responsive-image-graph{
+  width: 80vw;
+}
+.responsive-image-turbain{
+  width: 80vw;
+  height: 50vh;
 }
